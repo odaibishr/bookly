@@ -8,7 +8,7 @@ class CutstomAppBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 30),
+      padding: const EdgeInsets.only(top: 40, bottom: 20, left: 24, right: 24),
       child: Row(
         children: [
           Image.asset(AssetsData.logo, height: 18),
