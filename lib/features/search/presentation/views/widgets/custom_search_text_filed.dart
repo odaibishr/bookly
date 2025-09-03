@@ -5,6 +5,21 @@ class CustomSearchTextFiled extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return TextField(
+      decoration: InputDecoration(
+        border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
+        enabledBorder: OutlineInputBorder(
+          borderSide: const BorderSide(color: Colors.white),
+        ),
+        focusedBorder: OutlineInputBorder(
+          borderSide: const BorderSide(color: Colors.white),
+        ),
+        hintText: 'Search',
+        suffixIcon: IconButton(
+          onPressed: () {},
+          icon: const Opacity(opacity: 0.8, child: Icon(Icons.search)),
+        ),
+      ), 
+    );
   }
 }
