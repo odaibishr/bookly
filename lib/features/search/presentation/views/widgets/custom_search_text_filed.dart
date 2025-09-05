@@ -19,7 +19,7 @@ class CustomSearchTextFiled extends StatelessWidget {
           onPressed: () {},
           icon: const Opacity(opacity: 0.8, child: Icon(Icons.search)),
         ),
-      ), 
+      ),
     );
   }
 }
